@@ -1,6 +1,6 @@
 ## some-webparts
 
-This is where you include your WebPart documentation.
+N/A.
 
 ### Building the code
 
@@ -19,8 +19,21 @@ This package produces the following:
 
 ### Build options
 
+```bash
 gulp clean - TODO
 gulp test - TODO
 gulp serve - TODO
 gulp bundle - TODO
 gulp package-solution - TODO
+```
+
+### Important cmds
+
+```bash
+Fabric React:
+npm --save install office-ui-fabric-react
+gulp trust-dev-cert
+yo @microsoft/sharepoint
+```
+
+
