@@ -63,7 +63,7 @@ private getWeatherCondition(options : any): void {
       HttpClient.configurations.v1,
       httpClientOptions
       )
-      .then((response: HttpClientResponse): Promise<{ weather: IListItem }> => {
+      .then((response: HttpClientResponse): Promise<IListItem> => {
           return response.json();
       })
       .then((response: IListItem): void => {
