@@ -1,4 +1,4 @@
-.weather {
+.imageMagnifier {
   .container {
     max-width: 700px;
     margin: 0px auto;
@@ -48,29 +48,5 @@
       vertical-align: top;
       display: inline-block;
     }
-  }
-}
-
-.weather2 {
-  .row {
-    padding: 20px;
-  }
-
-  .weatherContainer {
-    padding-top: 10px;
-    width: 700px;
-    height: 300px;
-  }
-
-  .listItem {
-    max-width: 715px;
-    margin: 5px auto 5px auto;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
-  }
-  .topWeather {
-    vertical-align: middle;
-  }
-  .button {
-    text-decoration: none;
   }
 }

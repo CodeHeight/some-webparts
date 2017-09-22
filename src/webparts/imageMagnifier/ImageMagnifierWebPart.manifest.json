@@ -1,0 +1,35 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "976be117-2849-4d4f-abb9-17b0859b4342",
+  "alias": "ImageMagnifierWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "976be117-2849-4d4f-abb9-17b0859b4342",
+    "group": { "default": "Under Development" },
+    "title": { "default": "ImageMagnifier" },
+    "description": { "default": "Magnify images" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Configure the web part through the property pane to display the result",
+      "smallImgUrl": "",
+      "smallImgWidth": "",
+      "smallImgHeight": "",
+      "largeImgUrl": "",
+      "largeImgWidth": "",
+      "largeImgHeight": "",
+      "cursorOffsetX": "80",
+      "cursorOffsetY": "-80",
+      "size": "200"
+    }
+  }]
+}

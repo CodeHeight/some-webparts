@@ -1,7 +1,11 @@
 import * as React from 'react';
 import styles from './Weather.module.scss';
 import { css } from 'office-ui-fabric-react';
-import { Image } from 'office-ui-fabric-react/lib/Image';
+import {
+  Persona,
+  PersonaSize,
+  PersonaPresence
+} from 'office-ui-fabric-react/lib/Persona';
 import { IWeatherProps } from './IWeatherProps';
 import { IWeatherState, IListItem } from './IWeatherState'
 import { escape } from '@microsoft/sp-lodash-subset';
@@ -28,7 +32,9 @@ export default class Weather extends React.Component<IWeatherProps, IWeatherStat
           <div key={item.location.name} className='ms-bgColor-neutralSecondary'>
             <img className={css(styles.topWeather)} src={item.current.condition.icon}/>
             <span className='ms-font-xxl ms-fontColor-neutralLight'>{item.location.name}: 
-              {this.state.temp}&deg;F - {item.current.condition.text} with {item.current.humidity}&#37; humidity</span>
+              {this.state.temp}&deg;F - {item.current.condition.text} with {item.current.humidity}&#37; humidity
+            </span>
+
           </div>
         );
     });
@@ -36,7 +42,7 @@ export default class Weather extends React.Component<IWeatherProps, IWeatherStat
     return (
       <div className={styles.weather2}>
           <div className={css(styles.weatherContainer)} style={{backgroundImage: `url('http://loremflickr.com/700/300/${this.props.zipcode}')`}}>
-            <div className='ms-Grid-col ms-u-lg12 ms-u-xl12'>
+            <div className='ms-Grid-col ms-u-lg10 ms-u-xl10'>
               {items}
             </div>
         </div>

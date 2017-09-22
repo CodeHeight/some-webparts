@@ -1,5 +1,4 @@
 {
-  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
   "version": "2.0",
   "bundles": {
     "weather-web-part": {
@@ -9,10 +8,19 @@
           "manifest": "./src/webparts/weather/WeatherWebPart.manifest.json"
         }
       ]
+    },
+    "image-magnifier-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/imageMagnifier/ImageMagnifierWebPart.js",
+          "manifest": "./src/webparts/imageMagnifier/ImageMagnifierWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "WeatherWebPartStrings": "lib/webparts/weather/loc/{locale}.js"
+    "WeatherWebPartStrings": "lib/webparts/weather/loc/{locale}.js",
+    "ImageMagnifierWebPartStrings": "lib/webparts/imageMagnifier/loc/{locale}.js"
   }
 }
