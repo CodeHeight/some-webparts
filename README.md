@@ -38,9 +38,9 @@ yo @microsoft/sharepoint
 
 ## Webparts ##
 
-Screenshots
------------------
+1) Image Magnifier
 ![Image Magnifier](https://raw.githubusercontent.com/CodeHeight/TypeScript-Examples/master/images/solarsystem.png)
 
+2) Weather
 ![Weather](https://raw.githubusercontent.com/CodeHeight/TypeScript-Examples/master/images/weather.png)
 
