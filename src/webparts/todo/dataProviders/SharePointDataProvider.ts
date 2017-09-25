@@ -166,7 +166,7 @@ import {
       );
     }
   
-    private _resolveBatch(batch: SPHttpClientBatch, promises: Promise<{}>[]): Promise<ITodoItem[]> {
+    private _resolveBatch(batch: SPHttpClientBatch, promises: Promise<any>[]): Promise<ITodoItem[]> {
       return batch.execute()
         .then(() => Promise.all(promises).then(values => values[values.length - 1]));
     }

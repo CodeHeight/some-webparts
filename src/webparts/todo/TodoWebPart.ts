@@ -17,7 +17,7 @@ import TodoContainer from './components/TodoContainer/TodoContainer';
 import ITodoContainerProps from './components/TodoContainer/ITodoContainerProps';
 import ITodoWebPartProps from './ITodoWebPartProps';
 import ITodoDataProvider from './dataProviders/ITodoDataProvider';
-import MockDataProvider from './test/MockDataProvider';
+import MockDataProvider from './tests/MockDataProvider';
 import SharePointDataProvider from './dataProviders/SharePointDataProvider';
 import ITodoTaskList from './models/ITodoTaskList';
 
