@@ -16,11 +16,20 @@
           "manifest": "./src/webparts/imageMagnifier/ImageMagnifierWebPart.manifest.json"
         }
       ]
+    },
+    "todo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/todo/TodoWebPart.js",
+          "manifest": "./src/webparts/todo/TodoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "WeatherWebPartStrings": "lib/webparts/weather/loc/{locale}.js",
-    "ImageMagnifierWebPartStrings": "lib/webparts/imageMagnifier/loc/{locale}.js"
+    "ImageMagnifierWebPartStrings": "lib/webparts/imageMagnifier/loc/{locale}.js",
+    "TodoWebPartStrings": "lib/webparts/todo/loc/{locale}.js"
   }
 }

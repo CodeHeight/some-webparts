@@ -1,0 +1,26 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "4d38a7e1-f207-4a4f-8701-d6457e93f57b",
+  "alias": "TodoWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "4d38a7e1-f207-4a4f-8701-d6457e93f57b",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Todo" },
+    "description": { "default": "todo description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Todo"
+    }
+  }]
+}
