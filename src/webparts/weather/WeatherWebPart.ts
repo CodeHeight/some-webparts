@@ -10,7 +10,7 @@ import {
 import * as strings from 'WeatherWebPartStrings';
 import Weather from './components/Weather';
 import { IWeatherProps } from './components/IWeatherProps';
-import { IWeatherState } from './components/IWeatherState'
+import { IWeatherState } from './components/IWeatherState';
 import { IWeatherWebPartProps } from './IWeatherWebPartProps';
 
 export default class WeatherWebPart extends BaseClientSideWebPart<IWeatherWebPartProps> {

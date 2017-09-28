@@ -7,7 +7,7 @@ import {
   PersonaPresence
 } from 'office-ui-fabric-react/lib/Persona';
 import { IWeatherProps } from './IWeatherProps';
-import { IWeatherState, IListItem } from './IWeatherState'
+import { IWeatherState, IListItem } from './IWeatherState';
 import { escape } from '@microsoft/sp-lodash-subset';
 import { HttpClient, IHttpClientOptions, HttpClientResponse } from '@microsoft/sp-http';
 
