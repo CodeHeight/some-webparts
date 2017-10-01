@@ -19,8 +19,7 @@ import { IImageMagnifierWebPartProps } from './IImageMagnifierWebPartProps';
 export default class ImageMagnifierWebPart extends BaseClientSideWebPart<IImageMagnifierWebPartProps> {
 
   public render(): void {
-    const element: React.ReactElement<IImageMagnifierProps > = React.createElement(
-      ImageMagnifier,
+    const element: React.ReactElement<IImageMagnifierProps> = React.createElement(ImageMagnifier,
       {
         description: this.properties.description,
         smallImgUrl: this.properties.smallImgUrl,
