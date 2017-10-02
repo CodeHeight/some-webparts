@@ -16,11 +16,20 @@
           "manifest": "./src/webparts/imageMagnifier/ImageMagnifierWebPart.manifest.json"
         }
       ]
+    },
+    "youtube-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/youtube/YoutubeWebPart.js",
+          "manifest": "./src/webparts/youtube/YoutubeWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "WeatherWebPartStrings": "lib/webparts/weather/loc/{locale}.js",
-    "ImageMagnifierWebPartStrings": "lib/webparts/imageMagnifier/loc/{locale}.js"
+    "ImageMagnifierWebPartStrings": "lib/webparts/imageMagnifier/loc/{locale}.js",
+    "YoutubeWebPartStrings": "lib/webparts/youtube/loc/{locale}.js"
   }
 }
