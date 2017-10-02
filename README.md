@@ -1,6 +1,8 @@
 ## some-webparts
 
-N/A.
+![Auburn SharePoint](https://raw.githubusercontent.com/CodeHeight/TypeScript-Examples/master/images/auburn300x200.jpg)
+
+Demos for presentation on Oct. 3rd, 2017
 
 ### Building the code
 
@@ -47,4 +49,8 @@ yo @microsoft/sharepoint
 2) Weather
 
 ![Weather](https://raw.githubusercontent.com/CodeHeight/TypeScript-Examples/master/images/weather.png)
+
+3) YouTube Search
+
+![Weather](https://raw.githubusercontent.com/CodeHeight/TypeScript-Examples/master/images/youtube.png)
 
