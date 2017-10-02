@@ -15,10 +15,10 @@
 
   "preconfiguredEntries": [{
     "groupId": "0b0d09c6-cf11-4058-a137-73e57b085199",
-    "group": { "default": "Under Development" },
+    "group": { "default": "Auburn SPFx" },
     "title": { "default": "Weather" },
     "description": { "default": "Weather description" },
-    "officeFabricIconFontName": "Page",
+    "officeFabricIconFontName": "Sunny",
     "properties": {
       "description": "Weather"
     }

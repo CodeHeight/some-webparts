@@ -15,10 +15,10 @@
 
   "preconfiguredEntries": [{
     "groupId": "976be117-2849-4d4f-abb9-17b0859b4342",
-    "group": { "default": "Under Development" },
+    "group": { "default": "Auburn SPFx" },
     "title": { "default": "ImageMagnifier" },
     "description": { "default": "Magnify images" },
-    "officeFabricIconFontName": "Page",
+    "officeFabricIconFontName": "PhotoCollection",
     "properties": {
       "description": "Configure the web part through the property pane to display the result",
       "smallImgUrl": "",
