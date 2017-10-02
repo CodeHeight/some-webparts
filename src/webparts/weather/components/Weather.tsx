@@ -31,7 +31,7 @@ export default class Weather extends React.Component<IWeatherProps, IWeatherStat
         return (
           <div key={item.location.name} className='ms-bgColor-neutralSecondary'>
             <img className={css(styles.topWeather)} src={item.current.condition.icon}/>
-            <span className='ms-font-xxl ms-fontColor-neutralLight'>{item.location.name}: 
+            <span className='ms-font-xxl ms-fontColor-neutralLight'>{item.location.name}:&nbsp; 
               {this.state.temp}&deg;F - {item.current.condition.text} with {item.current.humidity}&#37; humidity
             </span>
           </div>
@@ -40,7 +40,7 @@ export default class Weather extends React.Component<IWeatherProps, IWeatherStat
 
     return (
       <div className={styles.weather2}>
-          <div className={css(styles.weatherContainer)} style={{backgroundImage: `url('http://loremflickr.com/700/300/${this.props.zipcode}')`}}>
+          <div className={css(styles.weatherContainer)} style={{backgroundImage: `url('https://loremflickr.com/800/300/${this.props.zipcode}')`}}>
             <div className='ms-Grid-col ms-u-lg12 ms-u-xl12'>
               {items}
             </div>
