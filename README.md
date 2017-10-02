@@ -55,6 +55,8 @@ gulp package-solution --ship
 
 ## Webparts ##
 
+![Webparts Folder](https://raw.githubusercontent.com/CodeHeight/TypeScript-Examples/master/images/webpartsIcons.png)
+
 1) Image Magnifier
 
 ![Image Magnifier](https://raw.githubusercontent.com/CodeHeight/TypeScript-Examples/master/images/solarsystem.png)
