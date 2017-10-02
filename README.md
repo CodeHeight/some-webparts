@@ -34,11 +34,24 @@ gulp package-solution - TODO
 ### Important cmds
 
 ```bash
-Fabric React:
-npm --save install office-ui-fabric-react
+Fabric React: npm --save install office-ui-fabric-react
 gulp trust-dev-cert
 yo @microsoft/sharepoint
 ```
+
+### Azure/CDN cmds
+
+![Azure Storage](https://raw.githubusercontent.com/CodeHeight/TypeScript-Examples/master/images/azure.png)
+
+Create storage account in Azure
+
+```bash
+gulp --ship
+gulp deploy-azure-storage
+gulp bundle --ship
+gulp package-solution --ship
+```
+
 
 ## Webparts ##
 
